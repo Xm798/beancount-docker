@@ -1,0 +1,17 @@
+{
+  "name": "ledger",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@emotion/styled": "^11.14.1",
+    "@mui/system": "^7.3.6",
+    "@mui/x-charts": "^8.22.1",
+    "@types/bun": "latest",
+    "@types/d3-shape": "^3.1.7",
+    "echarts": "^6.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

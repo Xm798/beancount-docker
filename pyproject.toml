@@ -1,0 +1,14 @@
+[project]
+name = "ledger-fava"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "beancount>=3.2.0",
+    "beancount-periodic>=0.2.1",
+    "fava>=1.30.8",
+    "fava-dashboards>=1.2.1",
+]
+
+[tool.uv.sources]
+fava-dashboards = { git = "https://github.com/andreasgerstmayr/fava-dashboards", rev = "v2.0.0b2" }
