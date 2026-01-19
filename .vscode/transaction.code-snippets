@@ -1,0 +1,31 @@
+{
+  "Beancount Transaction": {
+    "scope": "beancount",
+    "prefix": "tr",
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} * \"$1\" \"$2\"",
+      "    $0"
+    ],
+    "description": "Standard Beancount transaction template"
+  },
+  "Beancount Transaction with Time": {
+    "scope": "beancount",
+    "prefix": "trt",
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} * \"$1\" \"$2\"",
+      "    time: \"${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}\"",
+      "    $0"
+    ],
+    "description": "Beancount transaction template including time metadata"
+  },
+  "Beancount Balance": {
+    "scope": "beancount",
+    "prefix": "bal",
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} balance ${1:Assets:Wallet:WeChat:Merchant} $2 CNY",
+      "    time: \"${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}\"",
+      "$0"
+    ],
+    "description": "Beancount balance assertion template"
+  }
+}
