@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-fava-dashboards = { git = "https://github.com/andreasgerstmayr/fava-dashboards", rev = "v2.0.0b3" }
+fava-dashboards = { git = "https://github.com/andreasgerstmayr/fava-dashboards", rev = "v2.0.0b5" }

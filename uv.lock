@@ -180,8 +180,8 @@ wheels = [
 
 [[package]]
 name = "fava-dashboards"
-version = "2.0.0b3"
-source = { git = "https://github.com/andreasgerstmayr/fava-dashboards?rev=v2.0.0b3#19d936f29e8c7d4b0276c6ee6cd09a1d26c6e694" }
+version = "2.0.0b5"
+source = { git = "https://github.com/andreasgerstmayr/fava-dashboards?rev=v2.0.0b5#88da44615106696d68a9f4a1bec923fb1c660c34" }
 dependencies = [
     { name = "beanquery" },
     { name = "fava" },
@@ -278,7 +278,7 @@ requires-dist = [
     { name = "beancount", specifier = ">=3.2.0" },
     { name = "beancount-periodic", specifier = ">=0.2.1" },
     { name = "fava", specifier = ">=1.30.8" },
-    { name = "fava-dashboards", git = "https://github.com/andreasgerstmayr/fava-dashboards?rev=v2.0.0b3" },
+    { name = "fava-dashboards", git = "https://github.com/andreasgerstmayr/fava-dashboards?rev=v2.0.0b5" },
 ]
 
 [[package]]
